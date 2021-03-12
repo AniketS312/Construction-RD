@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto+Slab:wght@300;400;700&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+body {
+  font-family: var(--secondary-font);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section-1 {
+  width: 100vw;
+  height: 120vh;
+  background-image: url(../img/roofer-working.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+:root {
+  --main-font: "Roboto Slab", serif;
+  --secondary-font:"Noto Serif", serif;
+}
+
+/*# sourceMappingURL=style.css.map */
